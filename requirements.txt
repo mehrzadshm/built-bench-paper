@@ -1,0 +1,8 @@
+sentence-transformers==3.0.1
+mteb==1.14.5
+flash_attn==2.6.3
+pandas
+scikit-learn
+matplotlib
+plotly
+seaborn

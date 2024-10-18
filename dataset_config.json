@@ -1,0 +1,256 @@
+{   
+    "baseline_embedding_model": "mixedbread-ai/mxbai-embed-large-v1",
+    "seed": 42,
+    "clustering": {
+        "p2p_subsets": [
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "structural_elements": "structural",
+                    "building_control" : "building control",
+                    "hvac": "hvac",
+                    "electrical": "electrical"
+                },
+                "text_column_name": "description",
+                "label_column_name": "tags",
+                "num_samples": 50,
+                "num_sets": 4
+            },
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "IfcGeotechnicalElement": "Geotechnical",
+                    "IfcFurnishingElement": "Furnishing",
+                    "IfcTransportationDevice": "Transportation Device",
+                    "IfcBuiltElement": "Built (Structural/Architectural)",
+                    "IfcDistributionElement": "Distribution (Mechanical/Electrical/Plumbing)"
+                },
+                "text_column_name": "description",
+                "label_column_name": "1st_lev_superclass",
+                "num_samples": 40,
+                "num_sets": 6
+            },
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "IfcBuiltElement": "Built (Structural/Architectural)",
+                    "IfcDistributionElement": "Distribution (Mechanical/Electrical/Plumbing)"
+                },
+                "text_column_name": "description",
+                "label_column_name": "1st_lev_superclass",
+                "num_samples": 70,
+                "num_sets": 3
+            },
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "IfcReinforcingElement": "Reinforcing Element (Structural)",
+                    "IfcDistributionControlElement": "Control Element (Mechanical/Electrical/Plumbing)",
+                    "IfcDistributionFlowElement": "Flow Element (Mechanical/Electrical/Plumbing)"
+                },
+                "text_column_name": "description",
+                "label_column_name": "2nd_lev_superclass",
+                "num_samples": 40,
+                "num_sets": 3
+            },
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "IfcFlowTreatmentDevice": "Flow Treatment Device",
+                    "IfcFlowStorageDevice": "Flow Storage Device",
+                    "IfcFlowMovingDevice": "Flow Moving Device",
+                    "IfcFlowFitting": "Flow Fitting",
+                    "IfcFlowSegment": "Flow Segment",
+                    "IfcFlowController": "Flow Controller",
+                    "IfcEnergyConversionDevice": "Energy Conversion Device",
+                    "IfcFlowTerminal": "Flow Terminal"
+                },
+                "text_column_name": "description",
+                "label_column_name": "3rd_lev_superclass",
+                "num_samples": 30,
+                "num_sets": 2
+            },
+            {
+                "df_path": "data/uniclass_entities.csv",
+                "description": "1st-level categories of 'services and process products'",
+                "labels": {
+                    "services and process general products": "general",
+                    "services and process control products": "control",
+                    "opening products": "opening",
+                    "skin products": "skin",
+                    "services and process distribution products": "distribution",
+                    "covering and finishing products": "covering and finishing"
+                },
+                "text_column_name": "description",
+                "label_column_name": "1st_lev_superclass",
+                "num_samples": 100,
+                "num_sets": 2
+            },
+            {
+                "df_path": "data/uniclass_entities.csv",
+                "description": "subclasses of 'structure and general products'",
+                "labels": {
+                    "formless structure and general products": "formless structure and general",
+                    "sectional products": "sectional",
+                    "support and restraint products": "support and restraint",
+                    "fastener products": "fastener"
+                },
+                "text_column_name": "description",
+                "label_column_name": "2nd_lev_superclass",
+                "num_samples": 100,
+                "num_sets": 2
+            },
+            {
+                "df_path": "data/uniclass_entities.csv",
+                "description": "subclasses of 'signage, sanitary fittings and fittings, furnishing and equipment (ff&e) products'",
+                "labels": {
+                    "signage products": "signage",
+                    "sanitary fittings and accessories": "sanitary fittings and accessories",
+                    "equipment": "equipment",
+                    "fittings": "fittings",
+                    "furnishings": "furnishings"
+                    
+                },
+                "text_column_name": "description",
+                "label_column_name": "2nd_lev_superclass",
+                "num_samples": 100,
+                "num_sets": 3
+            }
+        ],
+        "s2s_subsets": [
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "structural_elements": "structural",
+                    "building_control" : "building control",
+                    "hvac": "hvac",
+                    "electrical": "electrical"
+                },
+                "text_column_name": "natural_name",
+                "label_column_name": "tags",
+                "num_samples": 50,
+                "num_sets": 4
+            },
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "IfcGeotechnicalElement": "Geotechnical",
+                    "IfcFurnishingElement": "Furnishing",
+                    "IfcTransportationDevice": "Transportation Device",
+                    "IfcBuiltElement": "Built (Structural/Architectural)",
+                    "IfcDistributionElement": "Distribution (Mechanical/Electrical/Plumbing)"
+                },
+                "text_column_name": "natural_name",
+                "label_column_name": "1st_lev_superclass",
+                "num_samples": 40,
+                "num_sets": 6
+            },
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "IfcBuiltElement": "Built (Structural/Architectural)",
+                    "IfcDistributionElement": "Distribution (Mechanical/Electrical/Plumbing)"
+                },
+                "text_column_name": "natural_name",
+                "label_column_name": "1st_lev_superclass",
+                "num_samples": 70,
+                "num_sets": 3
+            },
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "IfcReinforcingElement": "Reinforcing Element (Structural)",
+                    "IfcDistributionControlElement": "Control Element (Mechanical/Electrical/Plumbing)",
+                    "IfcDistributionFlowElement": "Flow Element (Mechanical/Electrical/Plumbing)"
+                },
+                "text_column_name": "natural_name",
+                "label_column_name": "2nd_lev_superclass",
+                "num_samples": 40,
+                "num_sets": 3
+            },
+            {
+                "df_path": "data/ifc_entities.csv",
+                "labels": {
+                    "IfcFlowTreatmentDevice": "Flow Treatment Device",
+                    "IfcFlowStorageDevice": "Flow Storage Device",
+                    "IfcFlowMovingDevice": "Flow Moving Device",
+                    "IfcFlowFitting": "Flow Fitting",
+                    "IfcFlowSegment": "Flow Segment",
+                    "IfcFlowController": "Flow Controller",
+                    "IfcEnergyConversionDevice": "Energy Conversion Device",
+                    "IfcFlowTerminal": "Flow Terminal"
+                },
+                "text_column_name": "natural_name",
+                "label_column_name": "3rd_lev_superclass",
+                "num_samples": 30,
+                "num_sets": 2
+            },
+            {
+                "df_path": "data/uniclass_entities.csv",
+                "description": "1st-level categories of 'services and process products'",
+                "labels": {
+                    "services and process general products": "general",
+                    "services and process control products": "control",
+                    "opening products": "opening",
+                    "skin products": "skin",
+                    "services and process distribution products": "distribution",
+                    "covering and finishing products": "covering and finishing"
+                },
+                "text_column_name": "natural_name",
+                "label_column_name": "1st_lev_superclass",
+                "num_samples": 100,
+                "num_sets": 2
+            },
+            {
+                "df_path": "data/uniclass_entities.csv",
+                "description": "subclasses of 'structure and general products'",
+                "labels": {
+                    "formless structure and general products": "formless structure and general",
+                    "sectional products": "sectional",
+                    "support and restraint products": "support and restraint",
+                    "fastener products": "fastener"
+                },
+                "text_column_name": "natural_name",
+                "label_column_name": "2nd_lev_superclass",
+                "num_samples": 100,
+                "num_sets": 2
+            },
+            {
+                "df_path": "data/uniclass_entities.csv",
+                "description": "subclasses of 'signage, sanitary fittings and fittings, furnishing and equipment (ff&e) products'",
+                "labels": {
+                    "signage products": "signage",
+                    "sanitary fittings and accessories": "sanitary fittings and accessories",
+                    "equipment": "equipment",
+                    "fittings": "fittings",
+                    "furnishings": "furnishings"
+                    
+                },
+                "text_column_name": "natural_name",
+                "label_column_name": "2nd_lev_superclass",
+                "num_samples": 100,
+                "num_sets": 3
+            }
+        ]
+    },
+    "reranking":{
+        "p2p_subsets": {
+            "neg_sampling_method": "similarity",
+            "corpus_text_col_name": "description",
+            "query_col_name": "description",
+            "num_positive_samples": 7,
+            "pos_neg_ratio": 3,
+            "max_num_sets": 4
+        },
+        "s2p_subsets": {
+            "neg_sampling_method": "similarity",
+            "corpus_text_col_name": "description",
+            "query_col_name": "natural_name",
+            "num_positive_samples": 7,
+            "pos_neg_ratio": 3,
+            "max_num_sets": 4
+        }
+
+    }
+    
+}

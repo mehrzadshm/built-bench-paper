@@ -1,0 +1,172 @@
+2024-09-18 10:30:42,203 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+
+
+2024-09-18 10:30:42,203 - model-specific-evals.qwen2-7b-instruct - INFO - Evaluating with instruction-based prompt for model Alibaba-NLP/gte-Qwen2-7B-instruct
+2024-09-18 10:30:42,203 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+Starting clustering-s2s task Eval for Model: Alibaba-NLP/gte-Qwen2-7B-instruct with instruction prompt:
+Instruct: Given the description of a built product, identify the category of the product similar to classification systems such as IFC or Uniclass.
+Query: 
+2024-09-18 10:30:42,208 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:33:14,308 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:35:36,512 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:38:13,851 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:40:50,343 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:42:21,893 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:43:52,784 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:45:20,196 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:46:51,240 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:48:23,529 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:49:55,804 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:51:18,201 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:52:11,882 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:55:01,623 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 10:56:53,011 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:03:54,258 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:10:51,252 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:14:34,040 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:19:18,403 - model-specific-evals.qwen2-7b-instruct - INFO - Clustering evaluation finished in 2916.20 seconds;
+Scores: {'v_measure': 0.5019, 'v_measure_std': 0.1015, 'v_measures': [0.5401, 0.4793, 0.514, 0.5374, 0.3562, 0.6735, 0.4755, 0.5238, 0.5122, 0.5411, 0.7149, 0.3273, 0.4302, 0.4659, 0.3478, 0.4835, 0.4644, 0.6463]}
+2024-09-18 11:19:18,403 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+Starting clustering-p2p task Eval for Model: Alibaba-NLP/gte-Qwen2-7B-instruct with instruction prompt:
+Instruct: Given the description of a built product, identify the category of the product similar to classification systems such as IFC or Uniclass.
+Query: 
+2024-09-18 11:19:18,439 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:23:46,792 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:27:48,012 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:32:00,115 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:35:23,167 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:38:47,599 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:42:04,704 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:45:20,160 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:49:16,901 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:52:31,811 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:56:53,922 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 11:59:29,541 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 12:02:22,544 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 12:07:19,053 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 12:10:38,230 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 12:26:51,678 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 12:42:58,614 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 12:52:50,745 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 13:06:32,219 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 13:16:09,248 - model-specific-evals.qwen2-7b-instruct - INFO - Corpus embedding started ...
+2024-09-18 13:28:32,357 - model-specific-evals.qwen2-7b-instruct - INFO - Clustering evaluation finished in 7753.92 seconds;
+Scores: {'v_measure': 0.6239, 'v_measure_std': 0.1718, 'v_measures': [0.4924, 0.7321, 0.5165, 0.6716, 0.636, 0.5281, 0.6208, 0.6309, 0.7953, 1.0, 0.3497, 0.6825, 0.4872, 0.4457, 0.7666, 0.6684, 0.9777, 0.4726, 0.3637, 0.6393]}
+2024-09-18 18:14:14,001 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+
+
+2024-09-18 18:14:14,002 - model-specific-evals.qwen2-7b-instruct - INFO - Evaluating with instruction-based prompt for model Alibaba-NLP/gte-Qwen2-7B-instruct
+2024-09-18 18:14:14,002 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+Starting retrieval-s2p task for Model: Alibaba-NLP/gte-Qwen2-7B-instruct with instruction prompt:
+Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-18 18:14:14,003 - evaluation.RetrievalEvaluator - INFO - Retrieval Task Initialized ...
+2024-09-18 18:14:14,003 - evaluation.RetrievalEvaluator - INFO - Loading Corpus...
+2024-09-18 18:14:14,226 - evaluation.RetrievalEvaluator - INFO - Loaded 2761 TEST Documents.
+2024-09-18 18:14:14,227 - evaluation.RetrievalEvaluator - INFO - Doc Example: {'id': 'uniclass_0', 'title': 'Higher fines content well graded granular mixtures', 'text': 'Granular mixtures with a high content of fines that are well-graded: This product is associated with excavated soil and fill materials and is classified as a type of formless preparatory product within the wider category of preparatory products. This product is essential for providing a stable base for various construction projects.'}
+2024-09-18 18:14:14,227 - evaluation.RetrievalEvaluator - INFO - Loading Queries...
+2024-09-18 18:14:14,690 - evaluation.RetrievalEvaluator - INFO - Loaded 334 TEST Queries.
+2024-09-18 18:14:14,690 - evaluation.RetrievalEvaluator - INFO - Query Example: {'id': 'ifc_1', 'text': 'Electric Actuator (Actuator type)'}
+2024-09-18 18:14:14,750 - evaluation.RetrievalEvaluator - INFO - query length average: 30.87
+2024-09-18 18:14:14,750 - evaluation.RetrievalEvaluator - INFO - corpus length average: 340.69
+2024-09-18 18:14:14,751 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Encoding of QUERIES with Prompt: Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-18 18:18:38,027 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Encoding of CORPUS with no Prompt.
+2024-09-18 19:17:01,161 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Scores:  ({'NDCG@1': 0.84731, 'NDCG@5': 0.84592, 'NDCG@10': 0.86279, 'NDCG@20': 0.87493, 'NDCG@50': 0.88678, 'NDCG@100': 0.89224}, {'MAP@1': 0.40026, 'MAP@5': 0.65879, 'MAP@10': 0.74164, 'MAP@20': 0.78926, 'MAP@50': 0.81912, 'MAP@100': 0.82586}, {'Recall@1': 0.40026, 'Recall@5': 0.70133, 'Recall@10': 0.81965, 'Recall@20': 0.89808, 'Recall@50': 0.95582, 'Recall@100': 0.97565}, {'P@1': 0.84731, 'P@5': 0.51018, 'P@10': 0.37485, 'P@20': 0.2503, 'P@50': 0.12976, 'P@100': 0.07225}, {'nAUC_NDCG@1_max': 0.6428523515260882, 'nAUC_NDCG@1_std': -0.09370404049456, 'nAUC_NDCG@1_diff1': 0.5273206190835729, 'nAUC_NDCG@5_max': 0.5475746311811325, 'nAUC_NDCG@5_std': -0.16749164330149136, 'nAUC_NDCG@5_diff1': 0.4254980055100876, 'nAUC_NDCG@10_max': 0.582039872408611, 'nAUC_NDCG@10_std': -0.17181462751713866, 'nAUC_NDCG@10_diff1': 0.45322280569592044, 'nAUC_NDCG@20_max': 0.6033492938756925, 'nAUC_NDCG@20_std': -0.1444430711960719, 'nAUC_NDCG@20_diff1': 0.4785271855687011, 'nAUC_NDCG@50_max': 0.5956552545715861, 'nAUC_NDCG@50_std': -0.10770879824779456, 'nAUC_NDCG@50_diff1': 0.4766697986332522, 'nAUC_NDCG@100_max': 0.5903044727279554, 'nAUC_NDCG@100_std': -0.08883651773894209, 'nAUC_NDCG@100_diff1': 0.4660604570444645, 'nAUC_MAP@1_max': 0.38798284253183923, 'nAUC_MAP@1_std': -0.37836869066795525, 'nAUC_MAP@1_diff1': 0.7293355675604156, 'nAUC_MAP@5_max': 0.41944388471394584, 'nAUC_MAP@5_std': -0.48544644074894905, 'nAUC_MAP@5_diff1': 0.5502193893988625, 'nAUC_MAP@10_max': 0.5026636418636306, 'nAUC_MAP@10_std': -0.4207661714320193, 'nAUC_MAP@10_diff1': 0.5345305593628779, 'nAUC_MAP@20_max': 0.5634307209070906, 'nAUC_MAP@20_std': -0.3095336897864619, 'nAUC_MAP@20_diff1': 0.5088148986402531, 'nAUC_MAP@50_max': 0.5618379008078539, 'nAUC_MAP@50_std': -0.2000131483700278, 'nAUC_MAP@50_diff1': 0.456511950064154, 'nAUC_MAP@100_max': 0.5606973355742051, 'nAUC_MAP@100_std': -0.1744007249145557, 'nAUC_MAP@100_diff1': 0.45115540632071366, 'nAUC_Recall@1_max': 0.38798284253183923, 'nAUC_Recall@1_std': -0.37836869066795525, 'nAUC_Recall@1_diff1': 0.7293355675604156, 'nAUC_Recall@5_max': 0.35639127931156456, 'nAUC_Recall@5_std': -0.539269904701693, 'nAUC_Recall@5_diff1': 0.5174308757883778, 'nAUC_Recall@10_max': 0.4478448903240637, 'nAUC_Recall@10_std': -0.5227078792542643, 'nAUC_Recall@10_diff1': 0.525228948172497, 'nAUC_Recall@20_max': 0.5499255236502263, 'nAUC_Recall@20_std': -0.4015241954704825, 'nAUC_Recall@20_diff1': 0.5354220900289, 'nAUC_Recall@50_max': 0.5973650686587028, 'nAUC_Recall@50_std': -0.17255031119064806, 'nAUC_Recall@50_diff1': 0.5407853028184559, 'nAUC_Recall@100_max': 0.5748258277433977, 'nAUC_Recall@100_std': 0.06202869111529606, 'nAUC_Recall@100_diff1': 0.5241095246838722, 'nAUC_P@1_max': 0.6428523515260882, 'nAUC_P@1_std': -0.09370404049456, 'nAUC_P@1_diff1': 0.5273206190835729, 'nAUC_P@5_max': -0.062207590014415164, 'nAUC_P@5_std': 0.36150710742277614, 'nAUC_P@5_diff1': -0.4614961085235375, 'nAUC_P@10_max': -0.08723622311631461, 'nAUC_P@10_std': 0.43636994997516176, 'nAUC_P@10_diff1': -0.4289050106827092, 'nAUC_P@20_max': -0.12399153113672245, 'nAUC_P@20_std': 0.48033545875072164, 'nAUC_P@20_diff1': -0.41223768178589526, 'nAUC_P@50_max': -0.18531461449075562, 'nAUC_P@50_std': 0.476232710202115, 'nAUC_P@50_diff1': -0.39469150551280396, 'nAUC_P@100_max': -0.20887342227353814, 'nAUC_P@100_std': 0.4577499628645329, 'nAUC_P@100_diff1': -0.3732931844751754})
+2024-09-18 19:17:01,161 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+Starting retrieval-p2p task for Model: Alibaba-NLP/gte-Qwen2-7B-instruct with instruction prompt:
+Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-18 19:17:01,162 - evaluation.RetrievalEvaluator - INFO - Retrieval Task Initialized ...
+2024-09-18 19:17:01,162 - evaluation.RetrievalEvaluator - INFO - Loading Corpus...
+2024-09-18 19:17:01,431 - evaluation.RetrievalEvaluator - INFO - Loaded 2761 TEST Documents.
+2024-09-18 19:17:01,432 - evaluation.RetrievalEvaluator - INFO - Doc Example: {'id': 'uniclass_0', 'title': 'Higher fines content well graded granular mixtures', 'text': 'Granular mixtures with a high content of fines that are well-graded: This product is associated with excavated soil and fill materials and is classified as a type of formless preparatory product within the wider category of preparatory products. This product is essential for providing a stable base for various construction projects.'}
+2024-09-18 19:17:01,432 - evaluation.RetrievalEvaluator - INFO - Loading Queries...
+2024-09-18 19:17:01,882 - evaluation.RetrievalEvaluator - INFO - Loaded 334 TEST Queries.
+2024-09-18 19:17:01,882 - evaluation.RetrievalEvaluator - INFO - Query Example: {'id': 'ifc_1', 'text': 'A device that electrically actuates a control element.'}
+2024-09-18 19:17:01,942 - evaluation.RetrievalEvaluator - INFO - query length average: 101.13
+2024-09-18 19:17:01,942 - evaluation.RetrievalEvaluator - INFO - corpus length average: 340.69
+2024-09-18 19:17:01,943 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Encoding of QUERIES with Prompt: Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-18 19:22:31,368 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Encoding of CORPUS with no Prompt.
+2024-09-18 20:20:53,213 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Scores:  ({'NDCG@1': 0.68263, 'NDCG@5': 0.7016, 'NDCG@10': 0.73196, 'NDCG@20': 0.75766, 'NDCG@50': 0.78248, 'NDCG@100': 0.79531}, {'MAP@1': 0.32526, 'MAP@5': 0.53351, 'MAP@10': 0.60191, 'MAP@20': 0.64882, 'MAP@50': 0.67756, 'MAP@100': 0.68658}, {'Recall@1': 0.32526, 'Recall@5': 0.60255, 'Recall@10': 0.73173, 'Recall@20': 0.83553, 'Recall@50': 0.92008, 'Recall@100': 0.9639}, {'P@1': 0.68263, 'P@5': 0.41437, 'P@10': 0.31407, 'P@20': 0.21901, 'P@50': 0.11976, 'P@100': 0.06967}, {'nAUC_NDCG@1_max': 0.5119535333603583, 'nAUC_NDCG@1_std': -0.17102581133958317, 'nAUC_NDCG@1_diff1': 0.5840378103012973, 'nAUC_NDCG@5_max': 0.49230266034321535, 'nAUC_NDCG@5_std': -0.14912385594100047, 'nAUC_NDCG@5_diff1': 0.5102949093357333, 'nAUC_NDCG@10_max': 0.5159930946223591, 'nAUC_NDCG@10_std': -0.15969299600292408, 'nAUC_NDCG@10_diff1': 0.5109042395838794, 'nAUC_NDCG@20_max': 0.5225847946896626, 'nAUC_NDCG@20_std': -0.1616963472295852, 'nAUC_NDCG@20_diff1': 0.5266862021685872, 'nAUC_NDCG@50_max': 0.5052221800377542, 'nAUC_NDCG@50_std': -0.1259498305497362, 'nAUC_NDCG@50_diff1': 0.5174549333390417, 'nAUC_NDCG@100_max': 0.5001065598685661, 'nAUC_NDCG@100_std': -0.12065489646222673, 'nAUC_NDCG@100_diff1': 0.5202251603952457, 'nAUC_MAP@1_max': 0.39247009730339855, 'nAUC_MAP@1_std': -0.2516015042972866, 'nAUC_MAP@1_diff1': 0.6604306390720734, 'nAUC_MAP@5_max': 0.4628728118303546, 'nAUC_MAP@5_std': -0.24837273197503468, 'nAUC_MAP@5_diff1': 0.5727260560169449, 'nAUC_MAP@10_max': 0.4965439430694737, 'nAUC_MAP@10_std': -0.23388742949831756, 'nAUC_MAP@10_diff1': 0.5570571231822287, 'nAUC_MAP@20_max': 0.5055963510689516, 'nAUC_MAP@20_std': -0.21261134853179015, 'nAUC_MAP@20_diff1': 0.5336116506575906, 'nAUC_MAP@50_max': 0.5104979553430191, 'nAUC_MAP@50_std': -0.1681635207111766, 'nAUC_MAP@50_diff1': 0.520630044705753, 'nAUC_MAP@100_max': 0.5085373538359186, 'nAUC_MAP@100_std': -0.1543073096745191, 'nAUC_MAP@100_diff1': 0.5222971574479875, 'nAUC_Recall@1_max': 0.39247009730339855, 'nAUC_Recall@1_std': -0.2516015042972866, 'nAUC_Recall@1_diff1': 0.6604306390720734, 'nAUC_Recall@5_max': 0.4313368770812005, 'nAUC_Recall@5_std': -0.21966114230019268, 'nAUC_Recall@5_diff1': 0.5044214029650015, 'nAUC_Recall@10_max': 0.44095749619925495, 'nAUC_Recall@10_std': -0.25487839097390375, 'nAUC_Recall@10_diff1': 0.4626735662536145, 'nAUC_Recall@20_max': 0.4534013367560413, 'nAUC_Recall@20_std': -0.24997564789600377, 'nAUC_Recall@20_diff1': 0.42271093865328496, 'nAUC_Recall@50_max': 0.4263919352660397, 'nAUC_Recall@50_std': -0.1403964127127207, 'nAUC_Recall@50_diff1': 0.3204136319968421, 'nAUC_Recall@100_max': 0.2626212832468785, 'nAUC_Recall@100_std': -0.07925460256778476, 'nAUC_Recall@100_diff1': 0.14796448240174018, 'nAUC_P@1_max': 0.5119535333603583, 'nAUC_P@1_std': -0.17102581133958317, 'nAUC_P@1_diff1': 0.5840378103012973, 'nAUC_P@5_max': 0.067047796896697, 'nAUC_P@5_std': 0.11938928579982336, 'nAUC_P@5_diff1': -0.15543708560449238, 'nAUC_P@10_max': -0.020054244320749696, 'nAUC_P@10_std': 0.1661966177894842, 'nAUC_P@10_diff1': -0.23841405968288734, 'nAUC_P@20_max': -0.09133432343705158, 'nAUC_P@20_std': 0.19974896133632755, 'nAUC_P@20_diff1': -0.2732090667705634, 'nAUC_P@50_max': -0.14422365392893394, 'nAUC_P@50_std': 0.2487937600039076, 'nAUC_P@50_diff1': -0.27163211605182025, 'nAUC_P@100_max': -0.17533117607529317, 'nAUC_P@100_std': 0.25088617176969674, 'nAUC_P@100_diff1': -0.2532391895820418})
+2024-09-19 06:54:32,600 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+
+
+2024-09-19 06:54:32,601 - model-specific-evals.qwen2-7b-instruct - INFO - Evaluating with instruction-based prompt for model Alibaba-NLP/gte-Qwen2-7B-instruct
+2024-09-19 06:54:32,601 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+Starting Reranking reranking-s2p task for Model: Alibaba-NLP/gte-Qwen2-7B-instruct with instruction prompt:
+Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-19 06:54:32,601 - model-specific-evals.qwen2-7b-instruct - INFO - Starting Reranking Task ...
+2024-09-19 06:54:32,626 - model-specific-evals.qwen2-7b-instruct - INFO - Total queries: 179; total/unique positives: 1253/1253; total/unique negatives: 3759/2281
+2024-09-19 06:54:32,626 - model-specific-evals.qwen2-7b-instruct - INFO - Average Lengths: [Query: 27.89, Positive: 311.32, Negative: 308.98]
+2024-09-19 06:54:32,626 - model-specific-evals.qwen2-7b-instruct - INFO - Example Query: Treatment (Surface Feature type)
+2024-09-19 06:54:32,626 - model-specific-evals.qwen2-7b-instruct - INFO - Example Positives: ['Water-based organic preservatives are products associated with preservatives, additives, and fire-retardant treatments. They are classified under formless coverings and finishes, which are part of the larger group of covering and finishing products. These preservatives are designed to enhance the durability and safety of materials by providing protective treatments.', 'Gilding size is a specialized coating product classified under the group of formless coverings and finishes, which is a part of the larger category of covering and finishing products. This product is typically used to prepare surfaces for the application of gold leaf or other metal leaf.', 'Concrete sealers are a type of surface sealing product that belong to the group of formless coverings and finishes, which are part of the larger category of covering and finishing products. These sealers are essential for protecting concrete surfaces from environmental damage.']
+2024-09-19 06:54:32,626 - model-specific-evals.qwen2-7b-instruct - INFO - Example Negatives: ['Slip-resistant surface treatments are specialized coatings designed to enhance grip and prevent slipping. They are classified as formless covering and finish products, which are part of the larger grouping of covering and finishing products. These treatments are essential for safety in areas prone to wet or slippery conditions.', 'Surface fillers are materials that belong to the category of formless coatings and finishes, specifically classified under preparation materials, fillers, and stoppers. These products are integral to the range of covering and finishing products. Surface fillers are used to smooth and prepare surfaces for further treatment or finishing.', 'Plastic cellular paving units: These are specific types of paving units classified under unit skin products, which are a subset of the broader category known as skin products. These units are often used to enhance surface stability and aesthetics.']
+2024-09-19 06:54:32,627 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Encoding of QUERIES with Prompt: Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-19 06:56:24,256 - mteb.evaluation.evaluators.RerankingEvaluator - WARNING - A total on 2124/5012 duplicate texts were found during encoding. Only encoding unique text and duplicating embeddings across.
+2024-09-19 06:56:24,256 - model-specific-evals.qwen2-7b-instruct - INFO - Custom Encoding Corpus with no prompt
+2024-09-19 06:58:53,734 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+
+
+2024-09-19 06:58:53,735 - model-specific-evals.qwen2-7b-instruct - INFO - Evaluating with instruction-based prompt for model Alibaba-NLP/gte-Qwen2-7B-instruct
+2024-09-19 06:58:53,735 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+Starting Reranking reranking-s2p task for Model: Alibaba-NLP/gte-Qwen2-7B-instruct with instruction prompt:
+Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-19 06:58:53,735 - model-specific-evals.qwen2-7b-instruct - INFO - Starting Reranking Task ...
+2024-09-19 06:58:53,746 - model-specific-evals.qwen2-7b-instruct - INFO - Loaded half of samples due to memory constraints: 90 samples
+2024-09-19 06:58:53,747 - model-specific-evals.qwen2-7b-instruct - INFO - Total queries: 90; total/unique positives: 630/630; total/unique negatives: 1890/1426
+2024-09-19 06:58:53,747 - model-specific-evals.qwen2-7b-instruct - INFO - Average Lengths: [Query: 27.87, Positive: 311.33, Negative: 306.74]
+2024-09-19 06:58:53,747 - model-specific-evals.qwen2-7b-instruct - INFO - Example Query: Treatment (Surface Feature type)
+2024-09-19 06:58:53,747 - model-specific-evals.qwen2-7b-instruct - INFO - Example Positives: ['Water-based organic preservatives are products associated with preservatives, additives, and fire-retardant treatments. They are classified under formless coverings and finishes, which are part of the larger group of covering and finishing products. These preservatives are designed to enhance the durability and safety of materials by providing protective treatments.', 'Gilding size is a specialized coating product classified under the group of formless coverings and finishes, which is a part of the larger category of covering and finishing products. This product is typically used to prepare surfaces for the application of gold leaf or other metal leaf.', 'Concrete sealers are a type of surface sealing product that belong to the group of formless coverings and finishes, which are part of the larger category of covering and finishing products. These sealers are essential for protecting concrete surfaces from environmental damage.']
+2024-09-19 06:58:53,747 - model-specific-evals.qwen2-7b-instruct - INFO - Example Negatives: ['Slip-resistant surface treatments are specialized coatings designed to enhance grip and prevent slipping. They are classified as formless covering and finish products, which are part of the larger grouping of covering and finishing products. These treatments are essential for safety in areas prone to wet or slippery conditions.', 'Surface fillers are materials that belong to the category of formless coatings and finishes, specifically classified under preparation materials, fillers, and stoppers. These products are integral to the range of covering and finishing products. Surface fillers are used to smooth and prepare surfaces for further treatment or finishing.', 'Plastic cellular paving units: These are specific types of paving units classified under unit skin products, which are a subset of the broader category known as skin products. These units are often used to enhance surface stability and aesthetics.']
+2024-09-19 06:58:53,747 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Encoding of QUERIES with Prompt: Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-19 06:59:49,623 - mteb.evaluation.evaluators.RerankingEvaluator - WARNING - A total on 663/2520 duplicate texts were found during encoding. Only encoding unique text and duplicating embeddings across.
+2024-09-19 06:59:49,623 - model-specific-evals.qwen2-7b-instruct - INFO - Custom Encoding Corpus with no prompt
+2024-09-19 07:33:33,472 - model-specific-evals.qwen2-7b-instruct - INFO - Scores computed in 2079.72 seconds.
+2024-09-19 07:33:33,472 - model-specific-evals.qwen2-7b-instruct - INFO - Scores: {'map': 0.6946979883387953, 'mrr': 0.8662962962962963, 'nAUC_map_max': 0.4257157492307894, 'nAUC_map_std': 0.5937882030982579, 'nAUC_map_diff1': -0.1118834365556503, 'nAUC_mrr_max': 0.3052902888311893, 'nAUC_mrr_std': 0.4561869433372108, 'nAUC_mrr_diff1': -0.13542861502162}
+2024-09-19 07:33:33,472 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Scores: {'map': 0.6946979883387953, 'mrr': 0.8662962962962963, 'nAUC_map_max': 0.4257157492307894, 'nAUC_map_std': 0.5937882030982579, 'nAUC_map_diff1': -0.1118834365556503, 'nAUC_mrr_max': 0.3052902888311893, 'nAUC_mrr_std': 0.4561869433372108, 'nAUC_mrr_diff1': -0.13542861502162}
+2024-09-19 07:33:33,472 - model-specific-evals.qwen2-7b-instruct - INFO - 
+
+Starting Reranking reranking-p2p task for Model: Alibaba-NLP/gte-Qwen2-7B-instruct with instruction prompt:
+Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-19 07:33:33,472 - model-specific-evals.qwen2-7b-instruct - INFO - Starting Reranking Task ...
+2024-09-19 07:33:33,515 - model-specific-evals.qwen2-7b-instruct - INFO - Loaded half of samples due to memory constraints: 90 samples
+2024-09-19 07:33:33,517 - model-specific-evals.qwen2-7b-instruct - INFO - Total queries: 90; total/unique positives: 630/630; total/unique negatives: 1890/1417
+2024-09-19 07:33:33,517 - model-specific-evals.qwen2-7b-instruct - INFO - Average Lengths: [Query: 141.62, Positive: 311.33, Negative: 306.33]
+2024-09-19 07:33:33,517 - model-specific-evals.qwen2-7b-instruct - INFO - Example Query: Treatment (Surface Feature type). A subtractive surface feature, e.g. grinding, or an additive surface feature, e.g. coating, or an impregnating treatment, or a series of any of these kinds of treatments.
+2024-09-19 07:33:33,517 - model-specific-evals.qwen2-7b-instruct - INFO - Example Positives: ['Water-based organic preservatives are products associated with preservatives, additives, and fire-retardant treatments. They are classified under formless coverings and finishes, which are part of the larger group of covering and finishing products. These preservatives are designed to enhance the durability and safety of materials by providing protective treatments.', 'Gilding size is a specialized coating product classified under the group of formless coverings and finishes, which is a part of the larger category of covering and finishing products. This product is typically used to prepare surfaces for the application of gold leaf or other metal leaf.', 'Concrete sealers are a type of surface sealing product that belong to the group of formless coverings and finishes, which are part of the larger category of covering and finishing products. These sealers are essential for protecting concrete surfaces from environmental damage.']
+2024-09-19 07:33:33,517 - model-specific-evals.qwen2-7b-instruct - INFO - Example Negatives: ['Slip-resistant surface treatments are specialized coatings designed to enhance grip and prevent slipping. They are classified as formless covering and finish products, which are part of the larger grouping of covering and finishing products. These treatments are essential for safety in areas prone to wet or slippery conditions.', 'Surface fillers are materials that belong to the category of formless coatings and finishes, specifically classified under preparation materials, fillers, and stoppers. These products are integral to the range of covering and finishing products. Surface fillers are used to smooth and prepare surfaces for further treatment or finishing.', 'Fine surface fillers are products associated with the category of formless coverings and finish products, specifically focused on preparation materials, fillers, and stoppers, which are part of the wider range of covering and finishing products. These fillers are used to achieve a smooth and flawless surface finish.']
+2024-09-19 07:33:33,519 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Encoding of QUERIES with Prompt: Instruct: Given the provided built product description, retrieve relevant built product descriptions that are semantically similar to the query
+Query: 
+2024-09-19 07:35:21,533 - mteb.evaluation.evaluators.RerankingEvaluator - WARNING - A total on 652/2520 duplicate texts were found during encoding. Only encoding unique text and duplicating embeddings across.
+2024-09-19 07:35:21,533 - model-specific-evals.qwen2-7b-instruct - INFO - Custom Encoding Corpus with no prompt
+2024-09-19 08:09:20,492 - model-specific-evals.qwen2-7b-instruct - INFO - Scores computed in 2146.97 seconds.
+2024-09-19 08:09:20,492 - model-specific-evals.qwen2-7b-instruct - INFO - Scores: {'map': 0.6750787465019068, 'mrr': 0.7976058201058203, 'nAUC_map_max': 0.3846795018592575, 'nAUC_map_std': 0.5196498719693264, 'nAUC_map_diff1': 0.0009014153935982527, 'nAUC_mrr_max': 0.3112955480384831, 'nAUC_mrr_std': 0.3623304554757376, 'nAUC_mrr_diff1': 0.021606509331301933}
+2024-09-19 08:09:20,493 - model-specific-evals.qwen2-7b-instruct - INFO - 
+Scores: {'map': 0.6750787465019068, 'mrr': 0.7976058201058203, 'nAUC_map_max': 0.3846795018592575, 'nAUC_map_std': 0.5196498719693264, 'nAUC_map_diff1': 0.0009014153935982527, 'nAUC_mrr_max': 0.3112955480384831, 'nAUC_mrr_std': 0.3623304554757376, 'nAUC_mrr_diff1': 0.021606509331301933}

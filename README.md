@@ -7,13 +7,13 @@
 
 Resources &amp; scripts for the paper: **["Benchmarking Pre-trained Text Embedding Models in Aligning Built Asset Information"](https://arxiv.org/abs/2411.12056)**
 
-## 🔹 Overview
+## Overview
 **BuiltBench** is a benchmark designed to evaluate pre-trained text embedding models in the **Built Asset Information Management** domain. 
 
 It is now officially **integrated into MTEB** and available for use in model evaluations.
 
 
-## 🚀 Updates
+## Updates
 - 🏆 **Now part of MTEB's official repo**
     - Integrated into **MTEB v1.34.15** → [Release details](https://github.com/embeddings-benchmark/mteb/releases/tag/1.34.15)
 - 📂 BuiltBench **Datasets are publicly available on Hugging Face**  
